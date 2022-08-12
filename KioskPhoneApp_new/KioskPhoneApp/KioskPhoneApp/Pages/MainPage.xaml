@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="KioskPhoneApp.Pages.MainPage"
+             xmlns:local="clr-namespace:KioskPhoneApp.Images"
+             BackgroundImage="Home.jpg">
+
+    <StackLayout>
+
+        <StackLayout VerticalOptions="Start"
+                     HorizontalOptions="Center"
+                     Margin="0,40,0,0">
+
+            <!--<Label Text="Kiosk Fucking See You"
+                   FontSize="50"
+                   FontAttributes="Bold"
+                   FontFamily="MICROSOFT JHENGHEI"
+                   HorizontalTextAlignment="Center"
+                   TextColor="Red"
+                   />-->
+
+            <Image BackgroundColor="Transparent"
+                   HeightRequest="240"
+                   WidthRequest="240"
+                   HorizontalOptions="Center"
+                   Aspect="AspectFill"
+                   Source="{local:ImageResource KioskPhoneApp.Images.Logo_Transparent.png}"
+                   />
+        </StackLayout>
+
+        <!--<Frame HorizontalOptions="Fill"
+               VerticalOptions="Center"
+               Margin="50,0,50,0"
+               Padding="0">
+            <xtool:GdColorView x:Name="IntroduceView"
+                               HorizontalOptions="FillAndExpand"
+                               VerticalOptions="Center"
+                               >
+                <StackLayout AbsoluteLayout.LayoutBounds="0,0,1,1"
+                             AbsoluteLayout.LayoutFlags="All">
+                    
+                    <Frame Padding="5"
+                           HorizontalOptions="CenterAndExpand"
+                           VerticalOptions="CenterAndExpand"
+                           CornerRadius="35"
+                           BackgroundColor="White">
+
+                        <StackLayout Orientation="Horizontal"
+                                 VerticalOptions="CenterAndExpand"
+                                 Padding="5">
+                            <BoxView BackgroundColor="Blue"
+                                 WidthRequest="45"
+                                 HeightRequest="20"/>
+                            <BoxView WidthRequest="1"
+                                 BackgroundColor="Black"/>
+
+                            <Entry WidthRequest="200"
+                                   BackgroundColor="Transparent"
+                                   CursorPosition="1"/>
+                        </StackLayout>
+                    </Frame>
+                    <Frame Padding="5"
+                           HorizontalOptions="CenterAndExpand"
+                           VerticalOptions="CenterAndExpand"
+                           CornerRadius="35"
+                           BackgroundColor="#1d88fb">
+
+                        <StackLayout Orientation="Horizontal"
+                                 VerticalOptions="CenterAndExpand"
+                                 Padding="5">
+                            <BoxView BackgroundColor="Blue"
+                                 WidthRequest="45"
+                                 HeightRequest="20"/>
+                            <BoxView WidthRequest="1"
+                                 BackgroundColor="Black"/>
+
+                            <Entry WidthRequest="200"
+                               BackgroundColor="Transparent"/>
+                        </StackLayout>
+                    </Frame>
+
+                </StackLayout>
+
+            </xtool:GdColorView>
+        </Frame>-->
+
+        <StackLayout HorizontalOptions="Fill"
+                     VerticalOptions="CenterAndExpand">
+
+            <Frame Padding="5"
+                       HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="CenterAndExpand"
+                       BackgroundColor="Transparent">
+
+
+                <StackLayout Orientation="Horizontal"
+                             VerticalOptions="CenterAndExpand"
+                             Padding="5">
+
+                    <Image Source="{local:ImageResource KioskPhoneApp.Images.account.jpg}"
+                           Aspect="AspectFit"
+                           WidthRequest="45"
+                           HeightRequest="45"
+                           HorizontalOptions="End"
+                           BackgroundColor="Transparent"/>
+                    <Entry WidthRequest="200"
+                           BackgroundColor="Transparent"
+                           x:Name="TxtUserId"/>
+                    <BoxView WidthRequest="45"/>
+                </StackLayout>
+            </Frame>
+
+            <Frame Padding="5"
+                   HorizontalOptions="CenterAndExpand"
+                   VerticalOptions="CenterAndExpand"
+                   BackgroundColor="Transparent">
+
+                <StackLayout Orientation="Horizontal"
+                             VerticalOptions="CenterAndExpand"
+                             Padding="5">
+
+                    <Image Source="{local:ImageResource KioskPhoneApp.Images.PasswordIcon.png}"
+                           Aspect="AspectFit"
+                           WidthRequest="45"
+                           HeightRequest="45"/>
+
+                    <Entry WidthRequest="200"
+                           BackgroundColor="Transparent"
+                           x:Name="TxtUserPw"
+                           IsPassword="True"/>
+                    <BoxView WidthRequest="45"/>
+
+                </StackLayout>
+            </Frame>
+
+        </StackLayout>
+
+
+        <StackLayout VerticalOptions="CenterAndExpand"
+                     HorizontalOptions="Center"
+                     BackgroundColor="Transparent"
+                     Spacing="0">
+
+            <Frame Padding="5"
+                   BackgroundColor="Transparent"
+                   WidthRequest="200">
+                <Button 
+                        Text="Login"
+                        FontSize="25"
+                        Clicked="BtnLogin"
+                        ImageSource="{local:ImageResource VideoPlayerDemos.Images.login.jpg}"/>
+            </Frame>
+
+            <Frame Padding="5"
+                   BackgroundColor="Transparent"
+                   WidthRequest="200">
+                <Button Text="Register"
+                        FontSize="25"
+                        Clicked="BtnRegister"
+                        ImageSource="{local:ImageResource VideoPlayerDemos.Images.register.jpg}"/>
+            </Frame>
+
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>

@@ -1,0 +1,70 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\account.jpg" />
+    <None Remove="Images\Camera_icon.png" />
+    <None Remove="Images\Home.jpg" />
+    <None Remove="Images\login.jpg" />
+    <None Remove="Images\Logo_Transparent.png" />
+    <None Remove="Images\PasswordIcon.png" />
+    <None Remove="Images\PhotoPick.png" />
+    <None Remove="Images\PhotoPick2.png" />
+    <None Remove="Images\PhotoTake.png" />
+    <None Remove="Images\PhotoUpload.png" />
+    <None Remove="Images\PickPhoto.png" />
+    <None Remove="Images\regiser.jpg" />
+    <None Remove="Images\Upload.jpg" />
+    <None Remove="Images\Uploadicon.png" />
+    <None Remove="Images\UserIcon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Images\account.jpg" />
+    <EmbeddedResource Include="Images\Camera_icon.png" />
+    <EmbeddedResource Include="Images\Home.jpg" />
+    <EmbeddedResource Include="Images\login.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\Logo_Transparent.png" />
+    <EmbeddedResource Include="Images\PasswordIcon.png" />
+    <EmbeddedResource Include="Images\PhotoPick.png" />
+    <EmbeddedResource Include="Images\PhotoPick2.png" />
+    <EmbeddedResource Include="Images\PhotoTake.png" />
+    <EmbeddedResource Include="Images\PhotoUpload.png" />
+    <EmbeddedResource Include="Images\PickPhoto.png" />
+    <EmbeddedResource Include="Images\regiser.jpg" />
+    <EmbeddedResource Include="Images\Upload.jpg" />
+    <EmbeddedResource Include="Images\Uploadicon.png" />
+    <EmbeddedResource Include="Images\UserIcon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="SkiaSharp.Views.Forms" Version="1.68.1.1" />
+    <PackageReference Include="Xam.Plugin.Media" Version="4.0.1.5" />
+    <PackageReference Include="Xamarin.Forms" Version="4.4.0.991757" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Pages\MainPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Pages\Register.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Pages\Upload.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

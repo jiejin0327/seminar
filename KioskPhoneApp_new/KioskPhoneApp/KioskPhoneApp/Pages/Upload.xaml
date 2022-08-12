@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="KioskPhoneApp.Pages.Upload"
+             xmlns:local="clr-namespace:KioskPhoneApp.Images
+             "
+             BackgroundImage="Upload.jpg">
+
+    <ScrollView BackgroundColor="Transparent">
+        <StackLayout BackgroundColor="Transparent">
+
+            <StackLayout Orientation="Horizontal"
+                         Padding="30,10,10,0">
+                <Label Text="Hi～"
+                       x:Name="UserName"
+                       FontSize="24"
+                       VerticalOptions="Center"/>
+
+                <Button Text="Log out"
+                        HorizontalOptions="EndAndExpand"
+                        Clicked="LogOut"/>
+
+            </StackLayout>
+
+            <StackLayout BackgroundColor="Transparent"
+                     VerticalOptions="FillAndExpand"
+                     Margin="15,15,15,20">
+
+                <Frame BackgroundColor="Transparent"
+                       Padding="2"
+                       Margin="0"
+                       VerticalOptions="FillAndExpand"
+                       HorizontalOptions="FillAndExpand"
+                       BorderColor="Black">
+
+                    <Image x:Name="PhotoContent"
+                           HorizontalOptions="FillAndExpand"
+                           VerticalOptions="Fill"
+                           BackgroundColor="Transparent"/>
+                </Frame>
+
+            </StackLayout>
+
+            <FlexLayout HorizontalOptions="FillAndExpand"
+                        VerticalOptions="End"
+                        JustifyContent="SpaceEvenly"
+                        Padding="20,0,20,20">
+
+                <Image WidthRequest="50"
+                       HeightRequest="50"
+                       BackgroundColor="Transparent"
+                       x:Name="PhotoPick"
+                       Source="{local:ImageResource KioskPhoneApp.Images.PickPhoto.png}"/>
+
+                <Image WidthRequest="50"
+                       HeightRequest="50"
+                       BackgroundColor="Transparent"
+                       x:Name="PhotoTake"
+                       Source="{local:ImageResource KioskPhoneApp.Images.Camera_icon.png}"/>
+
+                <Image WidthRequest="50"
+                       HeightRequest="50"
+                       BackgroundColor="Transparent"
+                       x:Name="PhotoUpload"
+                       Source="{local:ImageResource KioskPhoneApp.Images.Uploadicon.png}"/>
+
+            </FlexLayout>
+
+        </StackLayout>
+
+    </ScrollView>
+</ContentPage>

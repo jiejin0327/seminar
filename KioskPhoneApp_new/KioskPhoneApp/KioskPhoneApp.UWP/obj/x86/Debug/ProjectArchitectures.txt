@@ -1,0 +1,1 @@
+C:\Users\Rugal\Desktop\Kiosk專題\KioskPhoneApp_new\KioskPhoneApp\KioskPhoneApp.UWP\KioskPhoneApp.UWP.csproj;x86

@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:local="clr-namespace:KioskPhoneApp.Images"
+             mc:Ignorable="d"
+             x:Class="KioskPhoneApp.Pages.Register"
+             BackgroundImage="Home.jpg">
+    <StackLayout BackgroundColor="Transparent">
+
+        <StackLayout HorizontalOptions="FillAndExpand"
+                     VerticalOptions="CenterAndExpand"
+                     Padding="8"
+                     Margin="20"
+                     BackgroundColor="Transparent">
+            <Label x:Name="Introduce"
+                   Text="個人資料"
+                   FontSize="43"/>
+        </StackLayout>
+
+        <StackLayout HorizontalOptions="CenterAndExpand">
+            <StackLayout Orientation="Horizontal">
+                <Label Text="帳號："
+                       FontSize="28"/>
+                <Entry WidthRequest="200"
+                       x:Name="txtId"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Label Text="密碼："
+                       FontSize="28"/>
+                <Entry WidthRequest="200"
+                       x:Name="txtPw"
+                       IsPassword="True"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="姓名："
+                       FontSize="28"/>
+                <Entry WidthRequest="200"
+                       x:Name="txtName"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="電話："
+                       FontSize="28"/>
+                <Entry WidthRequest="200"
+                       x:Name="txtPhone"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Label Text="信箱："
+                       FontSize="28"/>
+                <Entry WidthRequest="200"
+                       x:Name="txtEmail"/>
+            </StackLayout>
+        </StackLayout>
+
+        <StackLayout VerticalOptions="CenterAndExpand"
+                     HorizontalOptions="Center"
+                     BackgroundColor="Transparent"
+                     Spacing="0">
+
+            <Frame Padding="5"
+                   BackgroundColor="Transparent"
+                   WidthRequest="200">
+                <Button Text="Register"
+                        FontSize="25"
+                        Clicked="BtnRegister"
+                        ImageSource="{local:ImageResource VideoPlayerDemos.Images.login.jpg}"/>
+            </Frame>
+            <Frame Padding="5"
+                   BackgroundColor="Transparent"
+                   WidthRequest="200">
+                <Button Text="Back"
+                        FontSize="25"
+                        Clicked="BtnPopPage"
+                        ImageSource="{local:ImageResource VideoPlayerDemos.Images.back.jpg}"/>
+            </Frame>
+
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\Seminar\KioskPhoneApp\KioskPhoneApp\KioskPhoneApp\bin\Release\netstandard2.0\KioskPhoneApp.deps.json
+C:\Users\user\Desktop\Seminar\KioskPhoneApp\KioskPhoneApp\KioskPhoneApp\bin\Release\netstandard2.0\KioskPhoneApp.dll
+C:\Users\user\Desktop\Seminar\KioskPhoneApp\KioskPhoneApp\KioskPhoneApp\bin\Release\netstandard2.0\ref\KioskPhoneApp.dll
+C:\Users\user\Desktop\Seminar\KioskPhoneApp\KioskPhoneApp\KioskPhoneApp\bin\Release\netstandard2.0\KioskPhoneApp.pdb
+C:\Users\user\Desktop\Seminar\KioskPhoneApp\KioskPhoneApp\KioskPhoneApp\obj\Release\netstandard2.0\KioskPhoneApp.csprojAssemblyReference.cache
+C:\Users\user\Desktop\Seminar\KioskPhoneApp\KioskPhoneApp\KioskPhoneApp\obj\Release\netstandard2.0\App.xaml.g.cs
+C:\Users\user\Desktop\Seminar\KioskPhoneApp\KioskPhoneApp\KioskPhoneApp\obj\Release\netstandard2.0\Pages\MainPage.xaml.g.cs
+C:\Users\user\Desktop\Seminar\KioskPhoneApp\KioskPhoneApp\KioskPhoneApp\obj\Release\netstandard2.0\Pages\Register.xaml.g.cs
+C:\Users\user\Desktop\Seminar\KioskPhoneApp\KioskPhoneApp\KioskPhoneApp\obj\Release\netstandard2.0\Pages\Upload.xaml.g.cs
+C:\Users\user\Desktop\Seminar\KioskPhoneApp\KioskPhoneApp\KioskPhoneApp\obj\Release\netstandard2.0\KioskPhoneApp.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Seminar\KioskPhoneApp\KioskPhoneApp\KioskPhoneApp\obj\Release\netstandard2.0\KioskPhoneApp.AssemblyInfo.cs
+C:\Users\user\Desktop\Seminar\KioskPhoneApp\KioskPhoneApp\KioskPhoneApp\obj\Release\netstandard2.0\XamlC.stamp
+C:\Users\user\Desktop\Seminar\KioskPhoneApp\KioskPhoneApp\KioskPhoneApp\obj\Release\netstandard2.0\KioskPhoneApp.dll
+C:\Users\user\Desktop\Seminar\KioskPhoneApp\KioskPhoneApp\KioskPhoneApp\obj\Release\netstandard2.0\ref\KioskPhoneApp.dll
+C:\Users\user\Desktop\Seminar\KioskPhoneApp\KioskPhoneApp\KioskPhoneApp\obj\Release\netstandard2.0\KioskPhoneApp.pdb
