@@ -1,0 +1,1 @@
+C:\Users\user\Desktop\videoPlayer\Xamarin_Forms___Video_Player_Demos\VideoPlayerDemos\VideoPlayerDemos.UWP\VideoPlayerDemos.UWP.csproj;x64

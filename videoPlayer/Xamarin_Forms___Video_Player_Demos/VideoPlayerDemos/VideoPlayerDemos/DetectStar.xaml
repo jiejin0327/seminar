@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:VideoPlayerDemos"
+             x:Class="VideoPlayerDemos.DetectStar"
+             Padding="10">
+    <StackLayout>
+        <Image 
+            x:Name="Img_Star"
+            Source="{local:ImageResource VideoPlayerDemos.Kay.jpg}"/>
+
+        <Label 
+            x:Name="Lb_name"
+            Text="你有 %像XXX!"
+            HorizontalOptions="Center"
+            FontSize="20"
+            TextColor="Gray"/>
+
+        <Button
+            Text="結束"
+            Clicked="Back"
+            />
+        <Button 
+                ImageSource="{local:ImageResource VideoPlayerDemos.Img_logo.png}"
+                Clicked="TakePhoto"/>
+    </StackLayout>
+</ContentPage>

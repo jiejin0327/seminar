@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\.github",
+    "\\examples",
+    "\\face_recognition"
+  ],
+  "SelectedNode": "\\examples\\facerec_from_webcam_faster.py",
+  "PreviewInSolutionExplorer": false
+}

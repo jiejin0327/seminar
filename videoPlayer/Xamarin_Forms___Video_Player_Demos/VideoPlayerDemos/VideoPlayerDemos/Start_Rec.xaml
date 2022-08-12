@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+              xmlns:local="clr-namespace:VideoPlayerDemos"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="VideoPlayerDemos.Start_Rec">
+
+    <StackLayout>
+            <Image 
+            x:Name="Img_Arrors"
+            Source="{local:ImageResource VideoPlayerDemos.loading.jpg}"/>
+            <Label 
+            x:Name="Lb_load"
+            Text="click..." 
+            HorizontalOptions="Center"
+            FontSize="20"
+            TextColor="Gray"/>
+        <Label 
+            x:Name="Lb_watch"
+            HorizontalOptions="Center"
+            VerticalOptions="End"
+            FontSize="20"
+            TextColor="Gray"/>
+        <Button
+            x:Name="Btn_Success"
+            Text="成功"
+            Clicked="success"
+            />
+        <Button
+            Text="失敗"
+            Clicked="fail"
+            />
+
+    </StackLayout>
+</ContentPage>

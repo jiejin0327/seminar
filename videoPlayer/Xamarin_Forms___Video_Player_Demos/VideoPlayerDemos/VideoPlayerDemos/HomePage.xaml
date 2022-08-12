@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:VideoPlayerDemos;assembly = VideoPlayerDemos" 
+             x:Class="VideoPlayerDemos.HomePage"
+             BackgroundImage="Home.jpg"
+             Padding="10">
+    <StackLayout>
+
+        <Button 
+                ImageSource="{local:ImageResource VideoPlayerDemos.Img_logo.png}"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                BackgroundColor="#00000000"
+                Clicked="TakePhoto"
+                BorderColor ="#00000000"
+                WidthRequest="700"
+                HeightRequest="700"/>
+    </StackLayout>
+</ContentPage>

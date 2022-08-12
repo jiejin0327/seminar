@@ -1,0 +1,129 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="BindToVideoPlayerPage.xaml.cs" />
+    <Compile Remove="CustomPositionBarPage.xaml.cs" />
+    <Compile Remove="CustomTransportPage.xaml.cs" />
+    <Compile Remove="FormsVideoLibrary\FileVideoSource.cs" />
+    <Compile Remove="FormsVideoLibrary\UriVideoSource.cs" />
+    <Compile Remove="FormsVideoLibrary\VideoSourceConverter.cs" />
+    <Compile Remove="Page1.xaml.cs" />
+    <Compile Remove="PlayLibraryVideoPage.xaml.cs" />
+    <Compile Remove="PlayWebVideoPage.xaml.cs" />
+    <Compile Remove="SelectWebVideoPage.xaml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="BindToVideoPlayerPage.xaml" />
+    <EmbeddedResource Remove="CustomPositionBarPage.xaml" />
+    <EmbeddedResource Remove="CustomTransportPage.xaml" />
+    <EmbeddedResource Remove="Page1.xaml" />
+    <EmbeddedResource Remove="PlayLibraryVideoPage.xaml" />
+    <EmbeddedResource Remove="PlayWebVideoPage.xaml" />
+    <EmbeddedResource Remove="SelectWebVideoPage.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="arrows.png" />
+    <None Remove="error.jpg" />
+    <None Remove="Img_logo.png" />
+    <None Remove="Kay.jpg" />
+    <None Remove="loading.jpg" />
+    <None Remove="loading.tif" />
+    <None Remove="logo.jpg" />
+    <None Remove="logo.png" />
+    <None Remove="photo\logo.jpg" />
+    <None Remove="photo\ResultError.jpg" />
+    <None Remove="ResultErr.png" />
+    <None Remove="ResultError.jpg" />
+    <None Remove="ResultSuc.jpg" />
+    <None Remove="ReturnHome.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Xam.Plugin.Media" Version="5.0.1" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.5.2" />
+    <PackageReference Include="Xamarin.Forms" Version="4.4.0.991757" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="arrows.png" />
+    <EmbeddedResource Include="error.jpg" />
+    <EmbeddedResource Include="Img_logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loading.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="logo.jpg" />
+    <EmbeddedResource Include="photo\ResultError.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResultErr.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResultError.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReturnHome.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Start_Rec.xaml.cs">
+      <DependentUpon>123</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="App.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="AskGame.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="DetectStar.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="HomePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PlayVideoResourcePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ResultFail.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ResultSuccess.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="NetConnect\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="ResultSuc.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Home.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

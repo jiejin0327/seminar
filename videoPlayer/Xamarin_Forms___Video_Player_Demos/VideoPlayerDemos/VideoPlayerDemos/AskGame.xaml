@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:VideoPlayerDemos"
+             x:Class="VideoPlayerDemos.AskGame"
+             Padding="10">
+    <StackLayout>
+        <!--<TableView Intent="Menu">
+            <TableRoot>
+                <TableSection>
+                    <TextCell Text="Welcome!"
+                          Detail="Please watch the camera."
+                          Command="{Binding NavigateCommand}"
+                          CommandParameter="{x:Type local:PlayVideoResourcePage}" />
+                </TableSection>
+            </TableRoot>
+        </TableView>-->
+
+        <Label 
+            x:Name="Lb_ask"
+            Text="你要玩遊戲嗎?!"
+            HorizontalOptions="Center"
+            FontSize="20"
+            TextColor="Gray"/>
+
+        <Button
+            Text="Yes"
+            Clicked="Yes"
+            />
+        <Button
+            Text="No"
+            Clicked="No"
+            />
+    </StackLayout>
+</ContentPage>

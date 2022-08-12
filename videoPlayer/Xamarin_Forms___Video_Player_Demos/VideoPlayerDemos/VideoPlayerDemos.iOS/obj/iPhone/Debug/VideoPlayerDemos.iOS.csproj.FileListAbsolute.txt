@@ -1,0 +1,7 @@
+C:\Users\user\Desktop\影片播放\Xamarin_Forms___Video_Player_Demos\VideoPlayerDemos\VideoPlayerDemos.iOS\obj\iPhone\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\user\Desktop\影片播放\Xamarin_Forms___Video_Player_Demos\VideoPlayerDemos\VideoPlayerDemos.iOS\obj\iPhone\Debug\actool\_PartialAppManifest.items
+C:\Users\user\Desktop\影片播放\Xamarin_Forms___Video_Player_Demos\VideoPlayerDemos\VideoPlayerDemos.iOS\obj\iPhone\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Users\user\Desktop\影片播放\Xamarin_Forms___Video_Player_Demos\VideoPlayerDemos\VideoPlayerDemos.iOS\obj\iPhone\Debug\coremlc\_PartialAppManifest.items
+C:\Users\user\Desktop\影片播放\Xamarin_Forms___Video_Player_Demos\VideoPlayerDemos\VideoPlayerDemos.iOS\obj\iPhone\Debug\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\user\Desktop\影片播放\Xamarin_Forms___Video_Player_Demos\VideoPlayerDemos\VideoPlayerDemos.iOS\obj\iPhone\Debug\optimized\
+C:\Users\user\Desktop\影片播放\Xamarin_Forms___Video_Player_Demos\VideoPlayerDemos\VideoPlayerDemos.iOS\obj\iPhone\Debug\VideoPlayerDemos.iOS.csprojAssemblyReference.cache

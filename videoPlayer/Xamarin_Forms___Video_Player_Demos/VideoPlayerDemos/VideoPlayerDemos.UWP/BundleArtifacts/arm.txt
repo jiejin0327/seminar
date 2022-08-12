@@ -1,0 +1,6 @@
+MainPackage=C:\Users\user\Desktop\videoPlayer\Xamarin_Forms___Video_Player_Demos\VideoPlayerDemos\VideoPlayerDemos.UWP\bin\ARM\Debug\VideoPlayerDemos.UWP_1.0.13.0_ARM_Debug.appx
+SymbolPackage=C:\Users\user\Desktop\videoPlayer\Xamarin_Forms___Video_Player_Demos\VideoPlayerDemos\VideoPlayerDemos.UWP\obj\ARM\Debug\Symbols\VideoPlayerDemos.UWP_1.0.13.0_ARM_Debug.appxsym
+ResourcePack=C:\Users\user\Desktop\videoPlayer\Xamarin_Forms___Video_Player_Demos\VideoPlayerDemos\VideoPlayerDemos.UWP\bin\ARM\Debug\VideoPlayerDemos.UWP_1.0.13.0_scale-100.appx
+ResourcePack=C:\Users\user\Desktop\videoPlayer\Xamarin_Forms___Video_Player_Demos\VideoPlayerDemos\VideoPlayerDemos.UWP\bin\ARM\Debug\VideoPlayerDemos.UWP_1.0.13.0_scale-125.appx
+ResourcePack=C:\Users\user\Desktop\videoPlayer\Xamarin_Forms___Video_Player_Demos\VideoPlayerDemos\VideoPlayerDemos.UWP\bin\ARM\Debug\VideoPlayerDemos.UWP_1.0.13.0_scale-150.appx
+ResourcePack=C:\Users\user\Desktop\videoPlayer\Xamarin_Forms___Video_Player_Demos\VideoPlayerDemos\VideoPlayerDemos.UWP\bin\ARM\Debug\VideoPlayerDemos.UWP_1.0.13.0_scale-400.appx

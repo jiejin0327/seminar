@@ -1,0 +1,2 @@
+MainPackage=C:\Users\user\Desktop\videoPlayer\Xamarin_Forms___Video_Player_Demos\VideoPlayerDemos\VideoPlayerDemos.UWP\bin\x64\Debug\VideoPlayerDemos.UWP_1.0.13.0_x64_Debug.appx
+SymbolPackage=C:\Users\user\Desktop\videoPlayer\Xamarin_Forms___Video_Player_Demos\VideoPlayerDemos\VideoPlayerDemos.UWP\obj\x64\Debug\Symbols\VideoPlayerDemos.UWP_1.0.13.0_x64_Debug.appxsym

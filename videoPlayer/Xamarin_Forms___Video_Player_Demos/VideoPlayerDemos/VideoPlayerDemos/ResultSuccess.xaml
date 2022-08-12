@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:VideoPlayerDemos"
+             x:Class="VideoPlayerDemos.ResultSuccess"
+             BackgroundImage="ResultSuc.jpg"
+             Padding="10">
+
+    <StackLayout>
+
+        <Label x:Name="Lb_name"
+               Text="歡迎你!"
+               HorizontalOptions="Center"
+               FontSize="50"
+               TextColor="Gray"/>
+
+        <Grid VerticalOptions="CenterAndExpand">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Image x:Name="Img_User"
+                   Grid.Row="0"
+                   Grid.Column="0"
+                   Margin="5"
+                   Aspect="AspectFit"
+                   HeightRequest="500"/>
+
+
+            <Image x:Name="Img_Star"
+                   Grid.Row="0"
+                   Grid.Column="1"
+                   Margin="5"
+                   Aspect="AspectFit"
+                   HeightRequest="500"/>
+
+        </Grid>
+        <Button 
+            ImageSource="{local:ImageResource VideoPlayerDemos.ReturnHome.png}"
+            VerticalOptions="End"
+            HorizontalOptions="Center"
+            Clicked="Complete"/>
+    </StackLayout>
+
+</ContentPage>

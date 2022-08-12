@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="VideoPlayerDemos.Page1"
+             xmlns:Img="clr-namespace:App2.UImage">
+    <StackLayout>
+
+        <StackLayout Orientation="Horizontal"
+                     Margin="20"
+                     Spacing="20"
+                     VerticalOptions="StartAndExpand">
+            <Frame BackgroundColor="Black"
+                   HorizontalOptions="Start"
+                   Padding="5"
+                   WidthRequest="90"
+                   HeightRequest="90"
+                   CornerRadius="50">
+
+                <Frame Padding="5"
+                       CornerRadius="50"
+                       BackgroundColor="White">
+                    <Label Text="登入/註冊"
+                           VerticalOptions="Center"
+                           HorizontalOptions="Center"
+                           />
+
+                </Frame>
+            </Frame>
+            <Label Text="使用者"
+                   FontSize="35"
+                   />
+        </StackLayout>
+
+        <Frame BackgroundColor="Black"
+               WidthRequest="150"
+               HeightRequest="150"
+               VerticalOptions="StartAndExpand"
+               HorizontalOptions="Center"
+               Padding="5">
+            <Image BackgroundColor="White"
+                   Source="{Img:ImageResource  App2.Image.logo.png}"
+                   Aspect="Fill"/>
+        </Frame>
+
+        <StackLayout Orientation="Horizontal"
+                     HorizontalOptions="Start"
+                     Padding="30,0,0,0">
+
+            <StackLayout>
+                <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="End">
+
+                    <Label Text="消費金額："
+                       FontSize="20"/>
+                    <Label Text="0"
+                       FontSize="20"/>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="End">
+                    <Label Text="點數："
+                   FontSize="20"/>
+                    <Label Text="0"
+                   FontSize="20"/>
+                </StackLayout>
+
+            </StackLayout>
+            <StackLayout Orientation="Vertical">
+                <Label Text="$"
+                       FontSize="20"/>
+                <Label Text="點"
+                       FontSize="20"/>
+
+            </StackLayout>
+
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal"
+                     Spacing="3"
+                     BackgroundColor="Black"
+                     VerticalOptions="EndAndExpand"
+                     Padding="3">
+            <Button Text="個人"
+                    FontSize="30"
+                    HorizontalOptions="FillAndExpand"
+                    BackgroundColor="White"/>
+            <Button Text="掃描"
+                    FontSize="30"
+                    HorizontalOptions="FillAndExpand"
+                    BackgroundColor="White"/>
+        </StackLayout>
+
+
+    </StackLayout>
+</ContentPage>
